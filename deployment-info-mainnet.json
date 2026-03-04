@@ -1,0 +1,10 @@
+{
+  "network": "mainnet-beta",
+  "programId": "5VijcQv7Kykjg7LhvpbyA9e31zg7MA1e51K5s9Ht1ooh",
+  "mint": "2zXL1Jcx7ALi4k982oEhQ6vmddsQfZFWjhJyHMGGXN7Z",
+  "mintAuthorityPda": "9F8K6kZZnQFrj971xh5Mxn3C547bfF516YTLbLumQjm8",
+  "statePda": "F7HSH4o8tCFwxoNmFAtPDy6sghoiuqjqZsoqP8s2aT7a",
+  "treasury": "7Yh1ZLxZssDnAcPChWoVZKDBChrVnBrna7uQq18opunw",
+  "treasuryAta": "5GGtU3XMzvvZ3SUXMzCjZwTZdqkkXznPC8wKWijq4hdD",
+  "deployedAt": "2026-03-01T16:56:56.768Z"
+}

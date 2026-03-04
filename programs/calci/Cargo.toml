@@ -1,0 +1,25 @@
+[package]
+name = "calci"
+version = "0.1.0"
+description = "Oggcoin SPL Token Program"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "calci"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = { version = "0.32.1", features = ["init-if-needed"] }
+anchor-spl = { version = "0.32.1" }
+spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("solana"))'] }
